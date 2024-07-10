@@ -2,9 +2,9 @@ import PropsTypes from "prop-types";
 
 function SkillItem({ skillName }) {
   return (
-    <div className="p-4 mb-2 mr-2 md:mb-5 md:mr-5 lg:mb-7 text-lg bg-gray-400 bg-opacity-50 rounded-lg font-semibold text-gray-600">
+    <p className="block w-fit py-2 px-3 bg-gray-200 border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
       {skillName}
-    </div>
+    </p>
   );
 }
 

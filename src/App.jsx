@@ -1,15 +1,8 @@
-import { BrowserRouter } from "react-router-dom";
-import Homepage from "./Components/page/Homepage";
 import "./index.css";
+import PageNotFound from "./Components/page/PageNotFound";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <div>
-        <Homepage />
-      </div>
-    </BrowserRouter>
-  );
+  return <PageNotFound />;
 }
 
 export default App;

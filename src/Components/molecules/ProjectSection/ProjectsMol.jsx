@@ -1,8 +1,10 @@
 import Project from "./Project";
+import { SectionTitle } from "../../atoms/General";
 
 function ProjectMolecules() {
   return (
-    <div className="w-full">
+    <div className="flex-col py-8 lg:py-16">
+      <SectionTitle title={"Projects"} />
       <Project
         imgSrc={"images/sayabafresh.png"}
         imgAlt={"SayabaFresh Image"}
@@ -24,12 +26,15 @@ function ProjectMolecules() {
         tech={"Node.js, Express.js, MongoDB, ODM (mongoose), Joi, JWT"}
       />
       <Project
-        imgSrc={"images/sayabafresh.png"}
-        imgAlt={"SayaFresh Image"}
-        title={"SayaFresh"}
-        role={"Backend Developer"}
+        imgSrc={"images/portfolio_screenshoot.png"}
+        imgAlt={"Portfolio"}
+        title={"Portfolio"}
+        role={"Web Developer"}
         desc={
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget diam lacinia, sollicitudin tellus ac, sagittis quam. Pellentesque accumsan feugiat ligula vel vulputate. Nullam arcu mi, tristique ac mauris in, aliquam sollicitudin metus. Pellentesque vitae orci lorem. Fusce quis finibus justo. Nunc et elit magna. Aenean fermentum est ut porttitor egestas. Donec volutpat volutpat tellus non molestie."
+          "A web which aims to showcase the owner skills and to connect owner with potential bussiness partner"
+        }
+        tech={
+          "Atomic Structure Architecture, React.js, Tailwind CSS, Flowbite, React Scroll, React rooter dom, Yup,"
         }
       />
     </div>

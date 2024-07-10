@@ -2,10 +2,27 @@ import PropTypes from "prop-types";
 
 function ProjectImage({ src, alt }) {
   return (
-    <div className="border-solid border-4 border-[#0A2E3B] w-1/2 object-fill rounded-lg mx-3">
-      <img src={src} alt={alt} className="object-cover h-60" />
-    </div>
+    <img
+      className="w-full border-[2px] rounded-xl border-gray-300"
+      src={src}
+      alt={alt}
+    />
   );
+  // return (
+  //   <div>
+  //     <div className="relative mx-auto w-full border-gray-800 dark:border-gray-800 border-[16px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
+  //       <div className="rounded-xl overflow-hidden h-[140px] md:h-[262px]">
+  //         <img
+  //           src={src}
+  //           className="hidden dark:block h-[140px] md:h-[262px] w-full rounded-xl"
+  //           alt={alt}
+  //         />
+  //       </div>
+  //     </div>
+  //     <div className="relative mx-auto bg-gray-900 dark:bg-gray-700 rounded-b-xl h-[24px] max-w-[301px] md:h-[42px] md:max-w-[512px]"></div>
+  //     <div className="relative mx-auto bg-gray-800 rounded-b-xl h-[55px] max-w-[83px] md:h-[95px] md:max-w-[142px]"></div>
+  //   </div>
+  // );
 }
 
 ProjectImage.propTypes = {

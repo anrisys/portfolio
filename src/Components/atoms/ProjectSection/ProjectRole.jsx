@@ -2,9 +2,9 @@ import PropsTypes from "prop-types";
 
 function ProjectRole({ role }) {
   return (
-    <p className="text-[#0A2E3B] text-left text-s md:text-l lg:text-xl font-light w-full">
+    <h3 className="my-2 text-normal tracking-tight font-extralight text-gray-900 dark:text-white">
       Role: {role}
-    </p>
+    </h3>
   );
 }
 

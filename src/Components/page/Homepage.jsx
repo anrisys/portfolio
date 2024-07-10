@@ -1,20 +1,15 @@
-import About from "../organism/About";
-import Contact from "../organism/Contact";
-import Footer from "../organism/Footer";
-import Header from "../organism/Header";
-import Hero from "../organism/Hero";
-import ProjectsOrg from "../organism/ProjectsOrg";
+import { About, Contact, Footer, Header, Hero, ProjectsOrg } from "../organism";
 
 function Homepage() {
   return (
     <>
       <Header />
       <Hero />
-      <div className="px-4 sm:px-6 lg:px-8">
+      <main>
         <About />
         <ProjectsOrg />
         <Contact />
-      </div>
+      </main>
       <Footer />
     </>
   );

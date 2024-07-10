@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function ProjectDetails({ description }) {
   return (
-    <div className="text-[#0A2E3B] text-left text-s md:text-l lg:text-xl">
+    <div className="text-[#0A2E3B] md:text-l lg:text-xl md:pl-5 lg:pl-5">
       <p className="leading-relaxed">{description}</p>
     </div>
   );
